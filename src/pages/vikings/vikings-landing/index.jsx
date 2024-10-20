@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import Nav from '../../../components/Nav';
 import Rodape from '../../../components/Rodape';
 import Whats from '../../../components/Whats';
-
+import Tattoo from '../../../components/Tattoo';
 
 
 export default function Landingpage() {
@@ -77,6 +77,19 @@ export default function Landingpage() {
                     <button>CONHECER MAIS</button>
                 </div>
             </div>
+
+            <div className='estilo'>
+                <Tattoo/>
+                <button>VEJA TODOS OS ESTILOS</button>
+            </div>
+            <div className='secao-contato'>
+                <h1>SOLICITE UM ORÇAMENTO E AGENDE SUA TATTOO</h1>
+                <button >ENTRE EM CONTATO</button>
+            </div>
+            <div className='secao-insta'>
+            <img src="assets/images/instagram.png" alt="" /><h1>SIGA-NOS NO INSTAGRAM</h1>
+            </div>
+
 
             <Rodape/>
 
