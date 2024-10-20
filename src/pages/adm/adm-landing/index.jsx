@@ -4,13 +4,10 @@ import './fonts.scss';
 export default function AdmLanding() {
     return (
         <div className="conteiner-adm"> 
-
                 <header>
-
                     <div className='imagem-logo'>
                         <img src="/assets/images/logovikings.webp" alt="logo-vikings" />
                     </div>
-
                     <div className='links-principal'>
                         <a href="/" className='animacao'>HOME</a>
                         <a href="" className='animacao'>RELATÓRIOS</a>
@@ -20,7 +17,6 @@ export default function AdmLanding() {
                 </header>
 
                 <div className='corpo'>
-
                     <div className='texto'>
                         <h1>CONSULTE AQUI OS HORARIOS AGENDADOS</h1>
                     </div>
@@ -32,7 +28,6 @@ export default function AdmLanding() {
                 </div>
 
                 <div className='imagens'>
-
                     <div className='imagem-cinza'>
                         <div className='relatar'>
                             <h1>Faça o seu relato. Defina como foi sua progressão do dia, semana, mes e ano</h1>
@@ -53,11 +48,9 @@ export default function AdmLanding() {
                             <button className='oi1'>Consultar <span className='contorno1'></span></button>
                         </div>
                     </div>
-
                 </div>
 
                 <div className='duvidas'>
-
                     <hr className='linha' />
 
                     <div className='rodape'>
