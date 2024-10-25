@@ -9,7 +9,7 @@ export default function Nav() {
       <Link to={'/'}><img className="image2" src="/assets/images/logovikings.webp" alt="logoVikings" /></Link>
 
       <div className="links">
-        <Link className="animacao" to={'/'}>HOME</Link>
+      <Link className="animacao" to={'/'}>HOME</Link>
         <Link  className="animacao" to={'/Estudio'}>ESTÚDIO</Link>
         <Link  className="animacao" to={'/'}>SERVIÇOS</Link>
         <Link  className="animacao" to={'/'}>AGENDAMENTO</Link>
